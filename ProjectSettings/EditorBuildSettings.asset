@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BNG Framework/HandPoser/Scenes/Hands.unity
     guid: a3b8fb853071ae24796720856c207a3a
-  - enabled: 1
+  - enabled: 0
     path: Assets/BNG Framework/HandPoser/Scenes/XR Example.unity
     guid: b3e50e3174b800346a50cd40f08198f9
   - enabled: 1
