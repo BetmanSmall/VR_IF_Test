@@ -5,26 +5,59 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/VRSceneChanger/Scenes/VRSceneSelector.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/BNG Framework/Scenes/XR Demo.unity
-    guid: a1360534006d3f845bc79b46b93cfec5
+    path: Assets/BNG Framework/HandPoser/Quest Hand Tracking.unity
+    guid: d09b4707ff48a8e4d9f494c4aaf98ba1
+  - enabled: 1
+    path: Assets/BNG Framework/HandPoser/Scenes/HandPoser.unity
+    guid: 9c2d804de3a5b194482ca698870f68ed
+  - enabled: 1
+    path: Assets/BNG Framework/HandPoser/Scenes/Hands.unity
+    guid: a3b8fb853071ae24796720856c207a3a
+  - enabled: 1
+    path: Assets/BNG Framework/HandPoser/Scenes/XR Example.unity
+    guid: b3e50e3174b800346a50cd40f08198f9
+  - enabled: 1
+    path: Assets/BNG Framework/Integrations/XR Interaction Toolkit/XRIT Example.unity
+    guid: da276f885c66c2745b310844de99aba9
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Arm Locomotion.unity
+    guid: 67ac3bb111792a44e8d5de9a1bf09c6a
   - enabled: 0
-    path: Assets/BNG Framework/Scenes/Scene Transitioning.unity
-    guid: 9d7c9629abf9c99449e358b0938b47d0
+    path: Assets/BNG Framework/Scenes/Empty.unity
+    guid: c0900b4a1bfde9547aad7e2e5f2b45b8
   - enabled: 1
     path: Assets/BNG Framework/Scenes/Physics Hands.unity
     guid: 34a4579517c578e4080d0a6ef2c96294
-  - enabled: 0
-    path: Assets/BNG Framework/Scenes/Rigidbody Player.unity
-    guid: 57fc97c5771a777449aa8bd02514df22
-  - enabled: 0
-    path: Assets/BNG Framework/Scenes/Vehicle Example.unity
-    guid: d96233ee44d985d4fb8dc23a907c06eb
-  - enabled: 0
+  - enabled: 1
     path: Assets/BNG Framework/Scenes/Quest Demo.unity
     guid: eac0312c32df12949a47d07747a9d1cd
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Rigidbody Player.unity
+    guid: 57fc97c5771a777449aa8bd02514df22
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Scene Transitioning.unity
+    guid: 9d7c9629abf9c99449e358b0938b47d0
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Vehicle Example.unity
+    guid: d96233ee44d985d4fb8dc23a907c06eb
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/XR Demo.unity
+    guid: a1360534006d3f845bc79b46b93cfec5
+  - enabled: 1
+    path: Assets/Samples/OpenXR Plugin/1.11.0/Controller/ControllerSample.unity
+    guid: edb91e86bd8b7dc4ca40ad6c3167de73
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/BNG Framework/HandPoser/HandPoser.unity
+    guid: cf491aec7ee3a6b4aba549d5ef5fd82d
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 95738646979e66347937d1a88ead7f33,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8f5ad68926032b895ad63d91556fdecb,
       type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
       type: 2}
@@ -32,6 +65,8 @@ EditorBuildSettings:
     com.unity.input.settings: {fileID: 11400000, guid: 7c0d65f8139523c47a3ac0b1587ccdf6,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bc87842975b39e54c9a8257bb65aef55,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 033b83bb311d7461a8adeb50974ee227,
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2ae0a4a226e8d9e4aba56d1e2eb3977b,
       type: 2}
