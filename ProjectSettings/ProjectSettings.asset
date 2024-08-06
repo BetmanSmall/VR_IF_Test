@@ -198,9 +198,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -3743320267476055398, guid: 94340b3c623d212308a7cee60776ba42, type: 2}
-  - {fileID: 11400000, guid: 8f5ad68926032b895ad63d91556fdecb, type: 2}
-  - {fileID: -4166116354523697891, guid: 033b83bb311d7461a8adeb50974ee227, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -222,7 +219,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.VR_IF_Test_Oculus
-    Standalone: com.BeardedNinjaGames.VRInteractionFramework
+    Standalone: com.DefaultCompany.VR-IF-Test-Oculus
   buildNumber:
     Standalone: 0
     VisionOS: 0
